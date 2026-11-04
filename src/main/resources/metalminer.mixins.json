@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.metalminer.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["GameRendererMixin", "WindowMixin", "IrisRenderTargetsMixin", "SkyRendererMixin"],
+  "injectors": {"defaultRequire": 1}
+}

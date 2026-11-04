@@ -1,0 +1,1 @@
+Simple MetalFX world upscaling for Apple Silicon Macs running Minecraft 26.3, Fabric, Sodium and shaders.

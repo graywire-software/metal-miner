@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "metalminer",
+  "version": "1.0.0+mc26.3",
+  "name": "metal miner",
+  "icon": "assets/metalminer/icon.png",
+  "description": "Simple MetalFX world upscaling for Apple Silicon Macs. Minecraft 26.3, Fabric, Sodium and shaders; native-resolution UI.",
+  "environment": "client",
+  "license": "MIT",
+  "entrypoints": {
+    "client": ["dev.metalminer.MetalMiner"],
+    "modmenu": ["dev.metalminer.ModMenuIntegration"]
+  },
+  "mixins": ["metalminer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "iris": "1.11.7+mc26.3",
+    "sodium": "0.9.3-beta.1+mc26.3"
+  },
+  "suggests": {"modmenu": ">=21.0.0"},
+  "breaks": {"metalupscaler": "*"}
+}

@@ -1,0 +1,8 @@
+.tools/
+.research/
+build/
+dist/
+.DS_Store
+*.dylib
+*.class
+__pycache__/
