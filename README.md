@@ -17,7 +17,7 @@ Because of this, I decided to write my own.
 
 ## Requirements
 
-- Apple Silicon Mac
+- Apple Silicon Mac running macOS 13 or later
 - Minecraft/Fabric 26.3 + Sodium + Iris
 - [Mod Menu](https://github.com/TerraformersMC/ModMenu)
 
