@@ -2,8 +2,8 @@
 
 # metal miner
 
-A simple MetalFX spatial upscaler that **supports shaders** and is built
-for **Minecraft 26.3 running Fabric**. The mod takes rendered OpenGL frames
+A simple MetalFX spatial upscaler that **supports Iris shaders** and is built
+for **Minecraft 26.3 and Fabric**. The mod takes rendered OpenGL frames
 and upscales them with MetalFX, then draws the UI at the window's native
 resolution.
 
